@@ -27,14 +27,14 @@ export default function Home() {
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://x.com/dianalokada"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
+            src="/arrow.svg"
+            alt="Arrow icon"
             width={16}
             height={16}
           />
@@ -43,14 +43,14 @@ export default function Home() {
 
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://github.com/dianalokada"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
+            src="/arrow.svg"
+            alt="Arrow icon"
             width={16}
             height={16}
           />
@@ -59,14 +59,15 @@ export default function Home() {
 
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.linkedin.com/in/justdiana/"
           target="_blank"
           rel="noopener noreferrer"
+          // key="linkedin-link"
         >
           <Image
             aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
+            src="/arrow.svg"
+            alt="Arrow icon"
             width={16}
             height={16}
           />
@@ -75,14 +76,14 @@ export default function Home() {
 
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.strava.com/athletes/123763485"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
+            src="/arrow.svg"
+            alt="Arrow icon"
             width={16}
             height={16}
           />
