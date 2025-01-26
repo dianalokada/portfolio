@@ -10,84 +10,121 @@ export default function Home() {
   return (
     <div className={`grid grid-rows-[1fr_auto] min-h-screen p-8 pb-20 sm:p-20 ${inter.className}`}>
       <main className="flex flex-col gap-12 items-start">
-        <h1 className="text-2xl font-medium">hi, i am diana alokhina</h1>
+        <h1 className="text-2xl font-bold">hi, i am diana </h1>
         
-        {/* <div className="flex flex-col gap-4 text-[15px] text-neutral-600"> */}
-        <div className="flex flex-col gap-4 text-[15px]">
-
+        <div className="flex flex-col gap-4 text-[15px] max-w-[65ch]">
           <p>
-            Forte quadam die, cum sol radiis suis terram illustraret, senex philosophus in horto suo ambulabat.
+            i'm a developer currently working in sales for a{" "}
+            <a 
+              href="https://www.beacon.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              beacon platform
+            </a>.
           </p>
 
-            Rosae rubrae inter virentes frondes splendebant, aves suaves cantus edebant, et aura levis per arborum ramos susurrabat.
+          <p>
+            previously was a software engineer at{" "}
+            <a 
+              href="https://github.com/oslabs-beta/KMon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              kmon
+            </a>{" "}
+            — building an open-source apache kafka cluster monitoring tool.
+          </p>
 
-            Subito, memoria veteris amici in mentem ei venit, qui olim sapientiam et consilium ei dederat.
+          <p>
+            sometimes i write about interesting topics in crypto and ai on my{" "}
+            <a 
+              href="https://mirror.xyz/dianalokada.eth"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white underline underline-offset-4 hover:opacity-70 transition-opacity"
+            >
+              blog
+            </a>.
+          </p>
+
+          <p>
+            originally from ukraine, i spent 5 years living in spain before moving to the US in 2018. 
+            currently live in new york.
+          </p>
+
+          <p>
+            i'm a fan of early morning runs, keinemusic, all-in pod, 
+            steaks and non-fiction/business books about political science/sociology/economics.
+          </p>
 
         </div>
 
-        <footer className="flex gap-6 items-center">
+        <footer className="flex gap-8 items-center">
           <a
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            className="hover:opacity-70 transition-opacity"
             href="https://x.com/dianalokada"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Twitter"
           >
             <Image
-              aria-hidden
-              src="/arrow2.svg"
-              alt="Arrow icon"
-              width={16}
-              height={16}
+              src="/twitter.svg"
+              alt="Twitter"
+              width={24}
+              height={24}
+              className="text-white"
             />
-            twitter/x 
           </a>
 
           <a
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            className="hover:opacity-70 transition-opacity"
             href="https://github.com/dianalokada"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub"
           >
             <Image
-              aria-hidden
-              src="/arrow2.svg"
-              alt="Arrow icon"
-              width={16}
-              height={16}
+              src="/github.svg"
+              alt="GitHub"
+              width={24}
+              height={24}
+              className="text-white"
             />
-            github
           </a>
 
           <a
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            className="hover:opacity-70 transition-opacity"
             href="https://www.linkedin.com/in/justdiana/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn"
           >
             <Image
-              aria-hidden
-              src="/arrow2.svg"
-              alt="Arrow icon"
-              width={16}
-              height={16}
+              src="/linkedin.svg"
+              alt="LinkedIn"
+              width={24}
+              height={24}
+              className="text-white"
             />
-            linkedin
           </a>
 
           <a
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            className="hover:opacity-70 transition-opacity"
             href="https://www.strava.com/athletes/123763485"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Strava"
           >
             <Image
-              aria-hidden
-              src="/arrow2.svg"
-              alt="Arrow icon"
-              width={16}
-              height={16}
+              src="/strava.svg"
+              alt="Strava"
+              width={24}
+              height={24}
+              className="text-white"
             />
-            strava
           </a>
         </footer>
       </main>
