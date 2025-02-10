@@ -57,7 +57,7 @@ export default function Home() {
           </p>
 
           <p>
-            i'm a fan of early morning runs, keinemusic, allin pod, 
+            i'm a fan of early morning runs, keinemusic, ping pong, allin pod, 
             steaks, nonfiction/business books about political science/sociology/economics.
           </p>
 
